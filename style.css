@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(128, 0, 128, 0.8);
+  background-blend-mode: multiply;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  font-weight: 390;
+  font-size: 37px;
+  margin-top: 50px;
+}
+
+#description {
+  text-align: center;
+  font-weight: 100;
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#survey-form {
+  background-color: rgba(0, 128, 0, 0.4);
+  border: none;
+  border-radius: 3px;
+  margin: 30px 20px 0 20px;
+  padding: 50px 40px;
+  font-size: 18px;
+}
+
+#email,
+#age,
+#name,
+#dropdown,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin: 10px 0 30px 0;
+  font-size: 18px;
+  background-color: white;
+}
+
+#dropdown {
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+}
+
+#dropdown:hover {
+  border: 2px solid darkviolet;
+  outline: 2px solid palevioletred;
+}
+
+#checkbox input, #radio-buttons input {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+#checkbox p, #radio-buttons p {
+  margin: 20px 0 5px 0;
+}
+
+#lastp{
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+textarea{
+  height: 130px;
+}
+
+button{
+  background-color: green;
+  color: white;
+}

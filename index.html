@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form" action="" method="get" accept-charset="utf-8">
+    <div id="main">
+      <div>
+        <label for="name" id="name-label">Name</label> <br />
+        <input type="text" name="name" id="name" value="" placeholder="Enter your name" required/>
+      </div>
+      <div>
+        <label for="email" id="email-label">Email</label> <br />
+        <input type="email" name="email" id="email" value="" placeholder="Enter your email" required/>
+      </div>
+      <div>
+        <label for="number" id="number-label">Age(optional)</label> <br />
+        <input type="number" name="number" id="age" value="" min="1" max="90" placeholder="Age"/>
+      </div>
+    </div>
+    <div id="choose">
+      <p>Which option best describes your current role?</p>
+      <select name="role" id="dropdown" required>
+        <option value="" selected disabled>Select current role</option>
+        <option value="Full time learner">Full time learner</option>
+        <option value="Student">Student</option>
+        <option value="Other">Other</option>
+      </select>
+      <div id="radio-buttons">
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+          <input type="radio" name="recommend" value="definitely" />Definitely <br />
+        </label>
+        <label>
+          <input type="radio" name="recommend" value="maybe" />Maybe <br />
+        </label>
+        <label>
+          <input type="radio" name="recommend" value="not sure" />Not sure <br />
+        </label>
+      </div>
+      <div id="checkbox">
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label>
+          <input type="checkbox" name="suggest"/>Front-end Projects <br />
+        </label>
+        <label>
+          <input type="checkbox" name="suggest"/>Back-end Projects <br />
+        </label>
+        <label>
+          <input type="checkbox" name="suggest"/>Data Visualization <br />
+        </label>
+        <label>
+          <input type="checkbox" name="suggest"/>Challenges <br />
+        </label>
+      </div>
+    </div>
+    <p id="lastp">Any comments or suggestions?</p>
+    <textarea name="" id=rows="300299293" cols="50" placeholder="Enter your text here"></textarea> <br />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
